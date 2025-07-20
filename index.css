@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #221010;
+    background-image: url("oyasumi.gif");
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    color: rgb(128, 12, 12);
+    padding: 0 8%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+ .logo{
+    width: 160px;
+ }
+ a:link{
+    color:rgb(128, 12, 12);
+}
+    
+a:visited {
+  color:gold;
+}
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px, 30px;
+ }
+
+ .hero h1{
+    font-size: 75px;
+    margin-top: 8%;
+    font-family: amatic-sc-bold;
+    
+    
+ }
+
+ .hero button{
+    background: #4d3504;
+    color: rgb(158, 149, 17);
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+
+ p{
+    background-color: #221010;
+    color: rgb(158, 149, 17);
+ }
+
+ .indicator{
+    margin-top: 150px;
+ }
+
+.indicator span{
+    display: inline-block;
+    background: #f58888;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.indicator span.active{
+    background: #cfc2c2;
+}
+ .cta{
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    align-items: right;
+    right: 8%;
+    bottom: 100px;
+ }
+/* h1{
+    font-size: 5rem;
+    color: gold;
+    text-align: center;
+} */
+
+
